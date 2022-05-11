@@ -131,7 +131,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   .formacao-container {
     grid-template-columns: 1fr;
     padding: 60px 20px;
@@ -139,6 +139,8 @@
   }
   .formacao .subtitulo {
     color: #ffffff;
+    max-width: 10ch;
+    font-size: 3rem;
   }
   .formacao-texto {
     font-size: 1.25rem;

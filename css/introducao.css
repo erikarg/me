@@ -53,10 +53,13 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   .introducao {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+  }
+  .introducao #foto {
+    width: 400px;
   }
   .introducao h1 {
     font-size: 2rem;

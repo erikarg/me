@@ -72,13 +72,15 @@
   text-align: right;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
   }
   .experiencia .subtitulo {
     color: #141414;
+    max-width: 10ch;
+    font-size: 3rem;
   }
   .experiencia-texto {
     font-size: 1.25rem;
