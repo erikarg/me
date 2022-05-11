@@ -76,6 +76,7 @@
   .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding: 60px 20px;
   }
   .experiencia .subtitulo {
     color: #141414;
