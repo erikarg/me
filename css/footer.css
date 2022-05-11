@@ -1,0 +1,71 @@
+.footer {
+  background: #000000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-texto {
+  font-size: 1.35rem;
+  line-height: 1.4;
+  color: #cccccc;
+
+}
+
+.footer-contato li {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer-contato li a {
+  color: #ffffff;
+}
+
+.footer-copy {
+  font-size: 1.125rem;
+  color: #8f8f8f;
+  grid: 1 / -1;
+}
+
+.footer-contato .email::before {
+  background: url('../imgs/email.svg') no-repeat center;
+  padding: 5px;
+}
+
+.footer-contato .linkedin::before {
+  background: url('../imgs/linkedin.svg') no-repeat center;
+  padding: 5px;
+}
+
+.footer-contato .github::before {
+  background: url('../imgs/github.svg') no-repeat center;
+  padding: 5px;
+}
+
+.footer-texto img {
+  width: 24px;
+  height: 24px;
+  display: inline;
+  padding: 2px;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato li {
+    font-size: 1.5rem;
+  }
+}
