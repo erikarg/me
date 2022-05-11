@@ -86,12 +86,12 @@
   .experiencia-texto {
     font-size: 1.25rem;
   }
-  .empresa-ano {
+  /* .empresa-ano {
     position: initial;
     order: 1;
     width: initial;
     text-align: left;
-  }
+  } */
   .empresa-ano::before {
     content: "Ano: ";
   }
