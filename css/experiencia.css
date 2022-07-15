@@ -79,19 +79,13 @@
     padding: 60px 20px;
   }
   .experiencia .subtitulo {
-    color: #141414;
+    color: #000000;
     max-width: 10ch;
     font-size: 3rem;
   }
   .experiencia-texto {
     font-size: 1.25rem;
   }
-  /* .empresa-ano {
-    position: initial;
-    order: 1;
-    width: initial;
-    text-align: left;
-  } */
   .empresa-ano::before {
     content: "Ano: ";
   }
