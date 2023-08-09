@@ -1,0 +1,128 @@
+.introduction {
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 15px;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+.introduction h3 {
+  font-size: 2.5rem;
+  padding: 15px;
+  color: #ffffff;
+  padding-top: 15px;
+  margin-left: 4rem;
+}
+
+.introduction h2 {
+  font-size: 2.7rem;
+  padding: 15px;
+  margin-left: 4rem;
+  color: #f8d83b;
+}
+
+.text-box {
+  padding-top: 8rem;
+}
+
+.illustration {
+  width: 600px;
+  height: 490px;
+  margin-right: 2rem;
+  margin-top: -28rem;
+  justify-self: right;
+}
+
+.easter-egg {
+  font-size: 0.7rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #2e2c2c;
+  margin-top: 20rem;
+  justify-self: left;
+  float: left;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .illustration {
+    width: 430px;
+    height: 370px;
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .introduction {
+    margin-top: 10rem;
+    display: flex;
+    grid-gap: 5px;
+  }
+
+  .introduction h2 {
+    margin-top: -0.75rem;
+    font-size: 2.2rem;
+    margin-left: 10px;
+  }
+
+  .introduction h3 {
+    font-size: 2rem;
+    margin-top: -0.75rem;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .illustration {
+    width: 430px;
+    height: 370px;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+  }
+
+  .introduction {
+    margin-top: 5rem;
+    display: flex;
+    grid-gap: 5px;
+  }
+
+  .introduction h2 {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    margin-left: 10px;
+  }
+
+  .introduction h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .illustration {
+    width: 430px;
+    height: 370px;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+  }
+
+  .introduction {
+    margin-top: 5rem;
+    display: flex;
+    grid-gap: 5px;
+  }
+
+  .introduction h2 {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    margin-left: 10px;
+  }
+
+  .introduction h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 10px;
+  }
+}

@@ -1,126 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Érika Rocha - Portfólio</title>
-  <meta name="description" content="Desenvolvedora Full Stack em formação
-  Localizada no Espírito Santo">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href='./imgs/favicon.svg' type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header class="header">
-    <h2>Érika Rocha</h2>
-    <nav>
-      <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="introducao">
-    <img src="./imgs/foto2.svg" alt="Programmer Girl" id="foto">
-    <div>
-      <h1>Administradora & Desenvolvedora Back-end</h1>
-        <img src="./imgs/icone.png" alt="Location" class="localizacao">
-        <p>Espírito Santo, Brasil</p>
-    </div>
-  </main>
-  <br>
-  <br>
-  <br>
-  <section class="experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
-    <div>
-      <p class="experiencia-texto">
-        Apesar de consistirem majoritariamente na área administrativa até o momento, minhas experiências profissionais contribuíram para o desenvolvimento de habilidades como: gestão eficiente do tempo, agilidade de aprendizagem, senso de organização, planejamento e condução de tarefas, proatividade e aptidão para escrever. 
-      </p>
-    <div class="empresa">
-      <span class="empresa-ano">2020-2022</span>
-      <h3 class="empresa-titulo">Caixa de Assistência dos Funcionários do Banco do Brasil</h3>
-      <span class="empresa-cargo">Auxiliar Administrativo</span>
-    </div>
-    <br>
-    <div class="empresa">
-      <span class="empresa-ano">2018-2020</span>
-      <h3 class="empresa-titulo">União Nacional das Instituições de Autogestão em Saúde</h3>
-      <span class="empresa-cargo">Estagiária</span>
-    </div>
-    <br>
-    <div class="empresa">
-      <span class="empresa-ano">2014-2018</span>
-      <h3 class="empresa-titulo">iTown</h3>
-      <span class="empresa-cargo">Consultora</span>
-    </div>
-    </div>
-    </section>
-    <section class="formacao" id="formacao" aria-label="Formação">
-      <div class="formacao-container">
-        <h2 class="subtitulo">Formação</h2>
-        <div>
-          <p class="formacao-texto">
-            Sou formada em Administração pela <strong>Universidade Federal do Espírito Santo</strong> e atuei em algumas empresas nessa área antes de optar pela transição de carreira. Atualmente, estou finalizando o curso de <strong>Desenvolvimento Web Full Stack</strong> na <strong style="color: #2fc18c">Trybe</strong>.
-          </p>
-          <ul class="faculdade-lista">
-            <li class="faculdade">
-              <span class="faculdade-tipo">Bacharel</span>
-              <h3 class="faculdade-curso">Administração</h3>
-              <span class="faculdade-instituição">UFES</span>
-            </li>
-            <li class="faculdade">
-              <span class="faculdade-tipo">Técnico</span>
-              <h3 class="faculdade-curso">Desenvolvimento Web Full Stack</h3>
-              <span class="faculdade-instituição">Trybe</span>
-            </li>
-            <li class="faculdade">
-              <span class="faculdade-tipo">Técnico</span>
-              <h3 class="faculdade-curso">Redes de Computadores</h3>
-              <span class="faculdade-instituição">SENAI-ES</span>
-            </li>
-          </ul>
-          <div class="formacao-extra">
-            <div class="cursos">
-              <h3 class="cursos-intensivos">Cursos Intensivos Completos</h3>
-              <ul>
-                <li>Bootcamp Inter OrangeTech + | BackEnd <span>DIO - 87h</span></li>
-                <li>JavaScript Completo ES6+<span>Origamid - 72h</li>
-                <li>React Completo<span>Origamid - 36h</span></li>
-                <li>HTML e CSS para Iniciantes <span>Origamid - 23h</span></li>
-                <li>Gerenciamento do Tempo <span>SENAC - 16h</span></li>
-                <li>Big Data Fundamentos 3.0 <span>Data Science Academy - 12h</span></li>
-                <li>Inglês <span>Centro Estadual de Idiomas - 200h</span></li>
-                <li>Montagem e Manutenção de Computadores <span>Visual Ponto Com - 60h</span></li>
-                <li>Marketing <span>Junior Achievement - 40h</span></li>
-              </ul>
-            </div>
-            <br>
-            <div class="idiomas">
-              <h3>Idiomas</h3>
-              <ul>
-                <li>Inglês <span>/ Avançado</span></li>
-                <li>Espanhol <span>/ Básico</span></li>
-              </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Érika Rocha - Portfólio</title>
+    <meta name="description" content="Desenvolvedora back-end" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="../css/images/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <body>
+      <header class="header">
+        <nav>
+          <div class="navbar">
+            <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="checkbox" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>
+              <div class="menu-items">
+                <li><a href="#introduction">INÍCIO</a></li>
+                <li><a href="#skills">HABILIDADES</a></li>
+                <li><a href="#projects">PROJETOS</a></li>
+                <li><a href="#contact">CONTATO</a></li>
+              </div>
             </div>
           </div>
+        </nav>
+      </header>
+      <p class="easter-egg">
+        01100100 01100001 01110100 01100001 00100000 00110100 00100000 01101100
+        01101001 01100110 01100101
+      </p>
+      <main class="introduction" id="introduction">
+        <div class="text-box">
+          <h3>Oi!</h3>
+          <br />
+          <h3>Meu nome é</h3>
+          <h2>Érika Rocha Gonçalves</h2>
+          <h3>E sou desenvolvedora de software.</h3>
         </div>
-      </div>
-    </section>
-    <footer class="footer" id="contato">
-      <div class="footer-container">
-        <p class="footer-texto">Estou disponível para novos projetos. Entre em contato comigo e marcamos uma conversa <img src="/imgs/mao.png" alt="Mão acenando"></p>
-        <ul class="footer-contato">
-          <li><a href="mailto:erikatrue@gmail.com" target="_blank" class="email">E-mail</a></li>
-          <li><a href="https://www.linkedin.com/in/erg1101/" target="_blank" class="linkedin">LinkedIn</a></li>
-          <li><a href="https://github.com/erikarg" target="_blank" class="github">GitHub</a></li>
-        </ul>
-        <p class="footer-copy">Érika Rocha. Alguns direitos reservados.</p>
-      </div>
-
-    </footer>
-</body>
+        <img src="./css/images/computer.gif" class="illustration" />
+      </main>
+      <section class="skills" id="skills">
+        <div class="skills-icons">
+          <img src="./css/images/AdonisJS.svg" />
+          <img src="./css/images/Nest.js.svg" />
+          <img src="./css/images/Node.js.svg" />
+          <img src="./css/images/JavaScript.svg" />
+          <img src="./css/images/TypeScript.svg" />
+          <img src="./css/images/Express.svg" />
+          <img src="./css/images/Docker.svg" />
+          <img src="./css/images/Sequelize.svg" />
+          <img src="./css/images/MongoDB.svg" />
+          <img src="./css/images/MySQL.svg" />
+          <img src="./css/images/Jest.svg" />
+          <img src="./css/images/React.svg" />
+          <img src="./css/images/Redux.svg" />
+          <img src="./css/images/HTML5.svg" />
+          <img src="./css/images/CSS3.svg" />
+          <img src="./css/images/Linux.svg" />
+          <img src="./css/images/Git.svg" />
+          <img src="./css/images/Visual Studio Code (VS Code).svg" />
+          <img src="./css/images/Postman.svg" />
+          <img src="./css/images/DataGrip.svg" />
+          <img src="./css/images/Confluence.svg" />
+          <img src="./css/images/BitBucket.svg" />
+          <img src="./css/images/Jira.svg" />
+          <img src="./css/images/Figma.svg" />
+        </div>
+        <h3 class="title">Habilidades</h3>
+        <div class="skills-text">
+          <div class="communication">
+            <img src="./css/images/communication.svg" />
+            <h3>Comunicação</h3>
+            <p>
+              Aqui não é o problema. Sou capaz de me comunicar de forma clara e
+              objetiva, expressando minhas ideias de maneira eficaz tanto em
+              interações formais quanto informais.
+            </p>
+          </div>
+          <div class="adaptability">
+            <img src="./css/images/adaptability.svg" />
+            <h3>Adaptabilidade</h3>
+            <p>
+              Consigo me adaptar a ambientes novos e dinâmicos, aprendendo novas
+              tecnologias, sendo receptiva aos feedbacks e ajustando o restante
+              conforme a necessidade do projeto. É a minha parte favorita.
+            </p>
+          </div>
+          <div class="collaboration">
+            <img src="./css/images/collaboration.svg" />
+            <h3>Colaboração</h3>
+            <p>
+              Bate aí! Não tem essa de trabalhar sozinho. Adoro engajar em
+              conversas, compartilhar ideias e escutar outros pontos de vista, e
+              é por isso que me dou muito bem com os times de frontend, design,
+              entre outros.
+            </p>
+          </div>
+        </div>
+      </section>
+      <h3 class="projects-title" id="projects">Principais projetos</h3>
+      <section class="projects">
+        <div class="projects-container">
+          <img
+            src="./css/images/trybesmith.png"
+            alt="icon"
+            class="trybesmith-img"
+          />
+          <img
+            src="./css/images/blogs-api.png"
+            alt="icon"
+            class="blogs-api-img"
+          />
+          <img
+            src="./css/images/talker-manager.png"
+            alt="icon"
+            class="talker-manager-img"
+          />
+          <img
+            src="./css/images/job-insights.png"
+            alt="icon"
+            class="job-insights-img"
+          />
+          <img
+            src="./css/images/car-shop.png"
+            alt="icon"
+            class="car-shop-img"
+          />
+        </div>
+        <div class="navigation-button">
+          <span class="dot active" onclick="changeSlide(0)"></span>
+          <span class="dot" onclick="changeSlide(1)"></span>
+          <span class="dot" onclick="changeSlide(2)"></span>
+          <span class="dot" onclick="changeSlide(3)"></span>
+          <span class="dot" onclick="changeSlide(4)"></span>
+        </div>
+      </section>
+      <footer class="footer">
+        <h3>Contato</h3>
+        <div class="contact" id="contact">
+          <p class="email" type="text" onclick="copyToClibpoard()">
+            <img src="./css/images/Email.svg" class="email" id="email-icon" />
+          </p>
+          <a href="https://github.com/erikarg" target="_blank" id="contact"
+            ><img src="./css/images/GitHub.svg" class="github"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/erg1101/"
+            target="_blank"
+            class="linkedin"
+            ><img src="./css/images/Linkedin.svg" class="linkedin"
+          /></a>
+        </div>
+      </footer>
+      <script src="./script.js"></script>
+    </body>
+  </head>
 </html>

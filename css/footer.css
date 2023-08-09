@@ -1,71 +1,40 @@
 .footer {
-  background: #000000;
-}
-
-.footer-container {
-  max-width: 1200px;
-  padding: 120px 20px 60px 20px;
+  max-width: 80%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  align-items: center;
+  height: 400px;
+  display: flex;
+  margin-top: 10rem;
+  flex-direction: column;
 }
 
-.footer-texto {
-  font-size: 1.35rem;
-  line-height: 1.4;
-  color: #cccccc;
-
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+  margin-top: 2rem;
+  position: blocked;
 }
 
-.footer-contato li {
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1.1;
-  color: #ffffff;
-  margin-bottom: 30px;
+.linkedin,
+.email {
+  width: 90px;
+  height: 90px;
+}
+
+.github {
+  width: 100px;
+  height: 100px;
+}
+
+.footer h3 {
+  font-size: 2.7rem;
   text-align: center;
-}
-
-.footer-contato li a {
+  padding: 15px;
   color: #ffffff;
 }
 
-.footer-copy {
-  font-size: 1.125rem;
-  color: #8f8f8f;
-  grid: 1 / -1;
-}
-
-.footer-contato .email::before {
-  background: url('../imgs/email.svg') no-repeat center;
-  padding: 5px;
-}
-
-.footer-contato .linkedin::before {
-  background: url('../imgs/linkedin.svg') no-repeat center;
-  padding: 5px;
-}
-
-.footer-contato .github::before {
-  background: url('../imgs/github.svg') no-repeat center;
-  padding: 5px;
-}
-
-.footer-texto img {
-  width: 24px;
-  height: 24px;
-  display: inline;
-  padding: 2px;
-}
-
-@media (max-width: 800px) {
-  .footer-container {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .footer-contato li {
-    font-size: 1.5rem;
-  }
+.contact img:hover {
+  border: 1px solid #f8d83b;
+  border-radius: 5px;
 }
