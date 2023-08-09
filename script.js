@@ -24,7 +24,7 @@ items.forEach((item) => {
 });
 
 function copyToClibpoard() {
-  var text = 'erikatrue@gmail.com';
+  let text = 'erikatrue@gmail.com';
   navigator.clipboard.writeText(text);
   alert('O email foi copiado!');
 }
