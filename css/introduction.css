@@ -125,7 +125,6 @@
   }
 
   .easter-egg {
-    text-decoration: none;
-    color: #2e2c2c;
+    display: none !important;
   }
 }
