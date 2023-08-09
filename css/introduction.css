@@ -123,4 +123,9 @@
     margin-top: 1rem;
     margin-left: 10px;
   }
+
+  .easter-egg {
+    text-decoration: none;
+    color: #2e2c2c;
+  }
 }
