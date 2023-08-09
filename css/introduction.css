@@ -1,7 +1,7 @@
 .introduction {
   max-width: 90%;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   grid-gap: 15px;
   margin-top: 8rem;
   margin-bottom: 5rem;
@@ -12,13 +12,13 @@
   padding: 15px;
   color: #ffffff;
   padding-top: 15px;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 .introduction h2 {
   font-size: 2.7rem;
   padding: 15px;
-  margin-left: 4rem;
+  margin-left: 3rem;
   color: #f8d83b;
 }
 
@@ -27,11 +27,10 @@
 }
 
 .illustration {
-  width: 600px;
-  height: 490px;
+  width: 550px;
+  height: 470px;
   margin-right: 2rem;
-  margin-top: -28rem;
-  justify-self: right;
+  margin-top: 5rem;
 }
 
 .easter-egg {
