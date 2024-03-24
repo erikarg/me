@@ -33,16 +33,6 @@
   margin-top: 5rem;
 }
 
-.easter-egg {
-  font-size: 0.7rem;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  color: #2e2c2c;
-  margin-top: 20rem;
-  justify-self: left;
-  float: left;
-}
-
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .illustration {
     width: 430px;
@@ -122,9 +112,5 @@
     font-size: 1.7rem;
     margin-top: 1rem;
     margin-left: 10px;
-  }
-
-  .easter-egg {
-    display: none !important;
   }
 }
