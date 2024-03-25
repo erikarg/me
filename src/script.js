@@ -1,11 +1,15 @@
-const images = document.querySelectorAll(".projects-container img");
 const dots = document.querySelectorAll(".dot");
-const navbar = document.querySelectorAll(".navbar");
 const items = document.querySelectorAll(".menu-items li");
 const checkbox = document.getElementById("checkbox");
+const enButton = document.getElementById("usaFlag");
+const esButton = document.getElementById("spainFlag");
+const frButton = document.getElementById("franceFlag");
+const ptBrButton = document.getElementById("brasilFlag");
+const emailButton = document.getElementById("email-icon");
 
-let currentIndex = 0;
-const interval = 3000;
+const changeLanguage = (lng) => {
+  i18n.changeLanguage(lng);
+};
 
 function changeSlide(number) {
   dots.forEach((dot, index) => {
@@ -28,9 +32,15 @@ function changeSlide(number) {
   projectLink.style.color = "white";
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-  // Chama changeSlide com o índice 0 ao carregar a página
+document.addEventListener("DOMContentLoaded", function () {
   changeSlide(0);
+  const languageIcon = document.getElementById("language-icon");
+  languageIcon.addEventListener("click", toggleLanguageSlide);
+  emailButton.addEventListener("click", () => copyToClibpoard());
+  enButton.addEventListener("click", () => changeLanguage("en"));
+  esButton.addEventListener("click", () => changeLanguage("es"));
+  frButton.addEventListener("click", () => changeLanguage("fr"));
+  ptBrButton.addEventListener("click", () => changeLanguage("ptbr"));
 });
 
 items.forEach((item) => {
@@ -38,6 +48,12 @@ items.forEach((item) => {
     checkbox.click();
   });
 });
+
+function toggleLanguageSlide() {
+  const languageSlide = document.querySelector(".language-slide");
+  languageSlide.style.display =
+    languageSlide.style.display === "none" ? "flex" : "none";
+}
 
 function copyToClibpoard() {
   const text = "erikatrue@gmail.com";

@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Érika Rocha - Portfólio</title>
-  <meta name="description" content="Desenvolvedora de software" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="../css/images/favicon.svg" type="image/svg+xml" />
+  <meta name="description" content="Desenvolvedora web" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="icon" href="../style/images/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet" />
@@ -33,6 +33,15 @@
         </div>
       </div>
     </nav>
+    <div class="language-selector">
+      <img alt="language-icon" src="./style/images/world.png" id="language-icon" />
+      <div class="language-slide">
+        <img src="/src/style/images/brasil-flag.png" alt="Brasil Flag" id="brasilFlag" class="flag" />
+        <img src="/src/style/images/usa-flag.png" alt="USA Flag" id="usaFlag" class="flag" />
+        <img src="/src/style/images/spain-flag.png" alt="Spain Flag" id="spainFlag" class="flag" />
+        <img src="/src/style/images/france-flag.png" alt="France Flag" id="franceFlag" class="flag" />
+      </div>
+    </div>
   </header>
   <main class="introduction" id="introduction">
     <div class="text-box">
@@ -42,30 +51,34 @@
       <h2>Érika Rocha Gonçalves</h2>
       <h3>E sou desenvolvedora web</h3>
     </div>
-    <img src="./css/images/computer.gif" class="illustration" alt="Computer screen" />
+    <img src="./style/images/computer.gif" class="illustration" alt="Computer screen" />
   </main>
   <section class="skills" id="skills">
     <div class="skills-icons">
-      <img alt="AdonisJS icon" src="./css/images/AdonisJS.svg" />
-      <img alt="Nest.js icon" src="./css/images/Nest.js.svg" />
-      <img alt="JavaScript icon" src="./css/images/JavaScript.svg" />
-      <img alt="TypeScript icon" src="./css/images/TypeScript.svg" />
-      <img alt="Node.js icon" src="./css/images/Node.js.svg" />
-      <img alt="Express icon" src="./css/images/Express.svg" />
-      <img alt="Docker icon" src="./css/images/Docker.svg" />
-      <img alt="Sequelize icon" src="./css/images/Sequelize.svg" />
-      <img alt="MongoDB icon" src="./css/images/MongoDB.svg" />
-      <img alt="MySQL icon" src="./css/images/MySQL.svg" />
-      <img alt="React icon" src="./css/images/React.svg" />
-      <img alt="Redux icon" src="./css/images/Redux.svg" />
-      <img alt="Jest icon" src="./css/images/Jest.svg" />
-      <img alt="HTML5 icon" src="./css/images/HTML5.svg" />
-      <img alt="CSS3 icon" src="./css/images/CSS3.svg" />
+      <img alt="AdonisJS icon" src="./style/images/AdonisJS.svg" />
+      <img alt="Nest.js icon" src="./style/images/Nest.js.svg" />
+      <img alt="JavaScript icon" src="./style/images/JavaScript.svg" />
+      <img alt="TypeScript icon" src="./style/images/TypeScript.svg" />
+      <img alt="Python icon" src="./style/images/Python.png" />
+      <img alt="Node.js icon" src="./style/images/Node.js.svg" />
+      <img alt="Express icon" src="./style/images/Express.svg" />
+      <img alt="Docker icon" src="./style/images/Docker.svg" />
+      <img alt="Sequelize icon" src="./style/images/Sequelize.svg" />
+      <img alt="MongoDB icon" src="./style/images/MongoDB.svg" />
+      <img alt="MySQL icon" src="./style/images/MySQL.svg" />
+      <img alt="Postgresql icon" src="./style/images/Postgresql.png" />
+      <img alt="React icon" src="./style/images/React.svg" />
+      <img alt="Redux icon" src="./style/images/Redux.svg" />
+      <img alt="Bootstrap icon" src="./style/images/Bootstrap.png" />
+      <img alt="Mocha icon" src="./style/images/Mocha.svg" />
+      <img alt="Jest icon" src="./style/images/Jest.svg" />
+      <img alt="HTML5 icon" src="./style/images/HTML5.svg" />
+      <img alt="CSS3 icon" src="./style/images/CSS3.svg" />
     </div>
     <h3 class="title">Habilidades</h3>
     <div class="skills-text">
       <div class="communication">
-        <img alt="Communication icon" src="./css/images/communication.svg" />
+        <img alt="Communication icon" src="./style/images/communication.svg" />
         <h3>Comunicação</h3>
         <p>
           Aqui não é o problema. Sou capaz de me comunicar de forma clara e
@@ -74,7 +87,7 @@
         </p>
       </div>
       <div class="adaptability">
-        <img alt="Adaptability icon" src="./css/images/adaptability.svg" />
+        <img alt="Adaptability icon" src="./style/images/adaptability.svg" />
         <h3>Adaptabilidade</h3>
         <p>
           Consigo me adaptar a ambientes novos e dinâmicos, aprendendo novas
@@ -83,7 +96,7 @@
         </p>
       </div>
       <div class="collaboration">
-        <img alt="Collaboration icon" src="./css/images/collaboration.svg" />
+        <img alt="Collaboration icon" src="./style/images/collaboration.svg" />
         <h3>Colaboração</h3>
         <p>
           Bate aí! Não tem essa de trabalhar sozinho. Adoro engajar em
@@ -113,16 +126,17 @@
   <footer class="footer">
     <h3>Contato</h3>
     <div class="contact" id="contact">
-      <p class="email" type="text" onclick="copyToClibpoard()">
-        <img alt="email icon" src="./css/images/Email.svg" class="email" id="email-icon" />
+      <p class="email" type="text">
+        <img alt="email icon" src="./style/images/Email.svg" class="email" id="email-icon" />
       </p>
       <a href="https://github.com/erikarg" target="_blank" id="github"><img alt="github icon"
-          src="./css/images/GitHub.svg" class="github" /></a>
+          src="./style/images/GitHub.svg" class="github" /></a>
       <a href="https://www.linkedin.com/in/erg1101/" target="_blank" class="linkedin"><img alt="linkedin icon"
-          src="./css/images/Linkedin.svg" class="linkedin" /></a>
+          src="./style/images/Linkedin.svg" class="linkedin" /></a>
     </div>
   </footer>
-  <script src="./script.js"></script>
+  <script src="/public/locales/i18n.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
