@@ -5,11 +5,17 @@ import Linkedin from "../../images/Linkedin.svg";
 import "./footer.css";
 
 function Footer() {
+  const copyEmailToClipboard = () => {
+    const email = "erikatrue@gmail.com";
+    navigator.clipboard.writeText(email);
+    alert("Email copied to clipboard!");
+  };
+
   return (
     <footer className="footer">
       <h3>Contato</h3>
       <div className="contact" id="contact">
-        <p className="email" type="text">
+        <p className="email" type="text" onClick={copyEmailToClipboard}>
           <img alt="email icon" src={Email} className="email" id="email-icon" />
         </p>
         <a

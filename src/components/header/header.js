@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import World from "../../images/world.png";
 import Brasil from "../../images/brasil-flag.png";
 import USA from "../../images/usa-flag.png";
@@ -7,6 +7,12 @@ import Spain from "../../images/spain-flag.png";
 import "./header.css";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleLanguageSlide = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="header">
       <nav>
@@ -36,8 +42,13 @@ function Header() {
         </div>
       </nav>
       <div className="language-selector">
-        <img alt="language-icon" src={World} id="language-icon" />
-        <div className="language-slide">
+        <img
+          alt="language-icon"
+          src={World}
+          id="language-icon"
+          onClick={toggleLanguageSlide}
+        />
+        <div className={`language-slide ${isOpen ? "open" : ""}`}>
           <img src={Brasil} alt="Brasil Flag" className="flag" />
           <img src={USA} alt="USA Flag" className="flag" />
           <img src={Spain} alt="Spain Flag" className="flag" />

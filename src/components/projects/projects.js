@@ -36,7 +36,7 @@ function Projects() {
         </a>
       </div>
       <div className="navigation-button">
-        {projects.map((index) => (
+        {projects.map((project, index) => (
           <span
             key={index}
             className={`dot ${activeSlide === index ? "active" : ""}`}

@@ -26,7 +26,7 @@ import "./skills.css";
 function Skills() {
   return (
     <section className="skills" id="skills">
-      <div class="skills-icons">
+      <div className="skills-icons">
         <img alt="AdonisJS icon" src={Adonis} />
         <img alt="Nest.js icon" src={Nest} />
         <img alt="JavaScript icon" src={JavaScript} />
