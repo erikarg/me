@@ -1,0 +1,94 @@
+.skills {
+    max-width: 82%;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title {
+    color: #d3d2d2;
+    font-size: 3rem;
+}
+
+.skills-icons {
+    color: #f5f5f5;
+    text-align: center;
+    padding: 50px;
+}
+
+.skills-icons img {
+    width: 50px;
+    padding: 15px;
+    height: 50px;
+}
+
+.skills-text {
+    padding: 15px;
+    font-size: 1.15rem;
+    color: #f5f5f5;
+    display: flex;
+}
+
+.skills-text img {
+    width: 50px;
+    padding: 15px;
+    height: 40px;
+}
+
+.skills-text div {
+    margin: 0 12px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 1.4;
+    padding: 25px;
+    width: 460px;
+    height: 310px;
+}
+
+.skills-text h3 {
+    padding: 10px;
+    color: #f8d83b;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .skills-text div {
+        width: fit-content;
+        height: 385px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .skills-text div {
+        width: fit-content;
+        height: 490px;
+    }
+
+    .skills-text {
+        width: fit-content;
+        display: flex;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .skills-text div {
+        width: fit-content;
+        height: 490px;
+    }
+
+    .skills-text {
+        gap: 15px;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+}
