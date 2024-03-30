@@ -5,6 +5,7 @@
     grid-gap: 15px;
     margin-top: 8rem;
     margin-bottom: 5rem;
+    justify-content: center;
 }
 
 .introduction h3 {

@@ -41,6 +41,10 @@
         height: 350px;
     }
 
+    .contact {
+        margin-left: 10px;
+    }
+
     .contact img {
         width: 60px;
         height: 60px;
@@ -49,5 +53,9 @@
     .footer h3 {
         font-size: 2rem;
         margin-top: 2rem;
+    }
+
+    .github {
+        margin-right: 15px;
     }
 }
