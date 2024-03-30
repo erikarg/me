@@ -20,10 +20,13 @@ import HTML from "../../images/HTML5.svg";
 import CSS from "../../images/CSS3.svg";
 import Communication from "../../images/communication.svg";
 import Adaptability from "../../images/adaptability.svg";
+import { useTranslation } from "react-i18next";
 import Collaboration from "../../images/collaboration.svg";
 import "./skills.css";
 
 function Skills() {
+  const { t } = useTranslation();
+
   return (
     <section className="skills" id="skills">
       <div className="skills-icons">
@@ -47,35 +50,22 @@ function Skills() {
         <img alt="HTML5 icon" src={HTML} />
         <img alt="CSS3 icon" src={CSS} />
       </div>
-      <h3 className="title">Habilidades</h3>
+      <h3 className="abilities">{t("Habilidades")}</h3>
       <div className="skills-text">
         <div className="communication">
           <img alt="Communication icon" src={Communication} />
-          <h3>Comunicação</h3>
-          <p>
-            Aqui não é o problema. Sou capaz de me comunicar de forma clara e
-            objetiva, expressando minhas ideias de maneira eficaz tanto em
-            interações formais quanto informais.
-          </p>
+          <h3>{t("Comunicação")}</h3>
+          <p>{t("frase1")}</p>
         </div>
         <div className="adaptability">
           <img alt="Adaptability icon" src={Adaptability} />
-          <h3>Adaptabilidade</h3>
-          <p>
-            Consigo me adaptar a ambientes novos e dinâmicos, aprendendo novas
-            tecnologias, sendo receptiva aos feedbacks e ajustando o restante
-            conforme a necessidade do projeto. É a minha parte favorita.
-          </p>
+          <h3>{t("Adaptabilidade")}</h3>
+          <p>{t("frase2")}</p>
         </div>
         <div className="collaboration">
           <img alt="Collaboration icon" src={Collaboration} />
-          <h3>Colaboração</h3>
-          <p>
-            Bate aí! Não tem essa de trabalhar sozinho. Adoro engajar em
-            conversas, compartilhar ideias e escutar outros pontos de vista, e é
-            por isso que me dou muito bem com os times de UI/UX, QA, entre
-            outros.
-          </p>
+          <h3>{t("Colaboração")}</h3>
+          <p>{t("frase3")}</p>
         </div>
       </div>
     </section>

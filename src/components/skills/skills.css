@@ -8,9 +8,13 @@
     gap: 50px;
 }
 
-.title {
+.abilities {
     color: #d3d2d2;
     font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+    padding: 2rem;
 }
 
 .skills-icons {
@@ -27,7 +31,7 @@
 
 .skills-text {
     padding: 15px;
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     color: #f5f5f5;
     display: flex;
 }
@@ -51,11 +55,6 @@
 .skills-text h3 {
     padding: 10px;
     color: #f8d83b;
-}
-
-.title {
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -84,11 +83,42 @@
         height: 490px;
     }
 
+    .skills {
+        max-width: 90%;
+        font-size: 2rem;
+        margin: 0 auto;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
     .skills-text {
-        gap: 15px;
-        width: fit-content;
+        gap: 25px;
+        width: 80%;
         display: flex;
         flex-direction: column;
         align-self: center;
+        padding: 0px;
+        font-size: 1.15rem;
+    }
+
+    .skills-text div {
+        margin: 0 auto;
+        height: auto;
+        line-height: 1.5;
+    }
+
+    .skills-text p {
+        text-align: justify;
+    }
+
+    .skills-icons {
+        padding: 0px;
+    }
+
+    .abilities {
+        font-size: 2rem;
+        padding: 10px;
     }
 }

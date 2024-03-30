@@ -1,0 +1,56 @@
+{
+    "Contato": "Contato",
+    "INÍCIO": "INÍCIO",
+    "HABILIDADES": "HABILIDADES",
+    "PROJETOS": "PROJETOS",
+    "Oi!": "Oi!",
+    "Me chamo": "Me chamo",
+    "E sou desenvolvedora web": "E sou desenvolvedora web",
+    "Principais projetos": "Principais projetos",
+    "Acesse o projeto aqui": "Acesse o projeto aqui",
+    "TrybeSmith": {
+      "Loja de itens medievais no formato de uma API REST.": "Loja de itens medievais no formato de uma API REST.",
+      "Express, Node.js": "Express, Node.js",
+      "Docker": "Docker",
+      "Typescript": "Typescript",
+      "MySQL": "MySQL",
+      "link": "https://github.com/erikarg/Project-Trybesmith"
+    },
+    "Blogs API": {
+      "Produção de conteúdo para um blog no formato de uma API Rest integrado ao banco de dados.": "Produção de conteúdo para um blog no formato de uma API Rest integrado ao banco de dados.",
+      "Express, Node.js": "Express, Node.js",
+      "Docker": "Docker",
+      "JavaScript": "JavaScript",
+      "MySQL": "MySQL",
+      "link": "https://github.com/erikarg/Project-Blogs-API"
+    },
+    "Talker Manager": {
+      "Aplicação de cadastro e gerenciamento de palestrantes.": "Aplicação de cadastro e gerenciamento de palestrantes.",
+      "Express, Node.js": "Express, Node.js",
+      "Docker": "Docker",
+      "JavaScript": "JavaScript",
+      "link": "https://github.com/erikarg/Project-Talker-Manager"
+    },
+    "Car Shop": {
+      "API feita em TypeScript e Mongoose para gerenciar o banco de dados de uma concessionária de veículos.": "API feita em TypeScript e Mongoose para gerenciar o banco de dados de uma concessionária de veículos.",
+      "Mongoose": "Mongoose",
+      "Docker": "Docker",
+      "TypeScript": "TypeScript",
+      "MongoDB": "MongoDB",
+      "link": "https://github.com/erikarg/Project-Car-Shop"
+    },
+    "Job Insights": {
+      "Aplicação de análises a partir de um conjunto de dados sobre empregos (extraídos do Glassdoor e obtidos através do Kaggle).": "Aplicação de análises a partir de um conjunto de dados sobre empregos (extraídos do Glassdoor e obtidos através do Kaggle).",
+      "Python": "Python",
+      "Flask": "Flask",
+      "Pytest": "Pytest",
+      "link": "https://github.com/erikarg/Project-Job-Insights"
+    },
+    "Comunicação": "Comunicação",
+    "Adaptabilidade": "Adaptabilidade",
+    "Colaboração": "Colaboração",
+    "frase1": "Aqui não é o problema. Sou capaz de me comunicar de forma clara e objetiva, expressando minhas ideias de maneira eficaz tanto em interações formais quanto informais.",
+    "frase2": "Consigo me adaptar a ambientes novos e dinâmicos, aprendendo novas tecnologias, sendo receptiva aos feedbacks e ajustando o restante conforme a necessidade do projeto. É a minha parte favorita.",
+    "frase3": "Bate aí! Não tem essa de trabalhar sozinho. Adoro engajar em conversas, compartilhar ideias e escutar outros pontos de vista, e é por isso que me dou muito bem com os times de UI/UX, QA, entre outros."
+  }
+  

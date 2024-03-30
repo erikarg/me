@@ -3,8 +3,11 @@ import Email from "../../images/Email.svg";
 import GitHub from "../../images/GitHub.svg";
 import Linkedin from "../../images/Linkedin.svg";
 import "./footer.css";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
+
   const copyEmailToClipboard = () => {
     const email = "erikatrue@gmail.com";
     navigator.clipboard.writeText(email);
@@ -13,7 +16,7 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <h3>Contato</h3>
+      <h3>{t("Contato")}</h3>
       <div className="contact" id="contact">
         <p className="email" type="text" onClick={copyEmailToClipboard}>
           <img alt="email icon" src={Email} className="email" id="email-icon" />

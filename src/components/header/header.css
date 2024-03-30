@@ -127,7 +127,7 @@
     border: 2px solid transparent;
     overflow: hidden;
     border-radius: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .flag:hover {
@@ -137,6 +137,7 @@
 
 .language-slide {
     display: none;
+    position: absolute;
     flex-direction: column;
     gap: 14px;
     width: 40px;
@@ -161,23 +162,64 @@
 
 @media screen and (max-width: 767px) {
     .navbar .menu-items {
-        transform: translate(-150%);
+        transform: translate(-120%);
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         transition: transform 0.5s ease-in-out;
         background-color: black;
-        padding-top: 80px;
-        gap: 20px;
+        width: 98%;
+        padding-top: 13px;
+        gap: 0px;
     }
 
     .navbar .menu-items li {
         background-color: black;
-        padding: 15px;
+        padding: 5px;
         font-weight: 700;
-        display: flex;
     }
 
     .navbar .menu-items a {
-        font-size: 1.2rem;
+        font-size: 0.85rem;
+    }
+
+    .navbar {
+        position: fixed;
+        height: 14%;
+        margin: 0;
+    }
+
+    .nav-container {
+        margin: 0 auto;
+    }
+
+    #language-icon {
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    .nav-container .hamburger-lines {
+        height: 20px;
+        width: 24px;
+    }
+
+    .flag {
+        height: 30px;
+        width: 30px;
+        object-fit: fill;
+    }
+
+    .language-slide {
+        flex-direction: row;
+        width: auto;
+        margin-left: 4.6rem;
+        margin-top: -0.42rem;
+    }
+
+    .language-selector {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-left: -0.72rem;
+        margin-top: -1.2rem;
     }
 }
