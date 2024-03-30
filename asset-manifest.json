@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.fe71bd43.css",
-    "main.js": "/me/static/js/main.88ec42aa.js",
+    "main.css": "/me/static/css/main.d66dab58.css",
+    "main.js": "/me/static/js/main.00338536.js",
     "static/js/453.58d2e1a3.chunk.js": "/me/static/js/453.58d2e1a3.chunk.js",
     "static/media/computer.gif": "/me/static/media/computer.6ffa8da0159dfcfcb30f.gif",
     "static/media/Postgresql.png": "/me/static/media/Postgresql.5a13e254fb0c5ae14652.png",
@@ -34,12 +34,13 @@
     "static/media/AdonisJS.svg": "/me/static/media/AdonisJS.17951e3b1f113e08ce33182e72767b45.svg",
     "index.html": "/me/index.html",
     "static/media/HTML5.svg": "/me/static/media/HTML5.8664168d5bc90b1a24396f85aadbf623.svg",
-    "main.fe71bd43.css.map": "/me/static/css/main.fe71bd43.css.map",
-    "main.88ec42aa.js.map": "/me/static/js/main.88ec42aa.js.map",
+    "static/media/getFetch.cjs": "/me/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.d66dab58.css.map": "/me/static/css/main.d66dab58.css.map",
+    "main.00338536.js.map": "/me/static/js/main.00338536.js.map",
     "453.58d2e1a3.chunk.js.map": "/me/static/js/453.58d2e1a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe71bd43.css",
-    "static/js/main.88ec42aa.js"
+    "static/css/main.d66dab58.css",
+    "static/js/main.00338536.js"
   ]
 }
